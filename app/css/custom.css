@@ -1,6 +1,41 @@
-/*
-Static file for Theme changes
-Theme name: My SPA Theme
-Version: 1.0
-Template: Howdy
-*/
+@media (min-width: 0px){
+    .main-wrapper {
+        max-width: 1210px; /* change to max-width:  1210px for large desktop */
+        margin: 0 auto;
+    }
+}
+.main-home {
+    margin-top:0px;
+}
+.jumbotron {
+    margin:0px;
+    background-color: transparent;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px
+}
+
+.jumbotron h2 img {
+    max-height: 90px;
+    width: 1198px
+}
+
+
+.product-image-large{
+    border: thin solid grey;
+    max-height: 500px;
+    max-width: 100%;
+}
+.thumbnail img{
+    border: thin solid grey;
+}
+
+.navcontainer{
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.thumbnail img{
+    max-height: 125px;
+    max-width: 100%;
+}
